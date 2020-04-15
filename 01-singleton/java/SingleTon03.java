@@ -17,6 +17,6 @@ public class SingleTon03 {
  *     getInstance 调用时初始化instance变量. 
  * 缺点:
  *     多线程下, 这种实现方法是完全错误的,无法保证单例的状态
- *
+ * synchronized 多线程
  *
  */

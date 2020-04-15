@@ -6,18 +6,16 @@ using namespace std;
 
 class CSingleton {
     private:
-        CSingleton(const CSingleton &copy) {cout<<"copy"<<endl;}
-        CSingleton& operator=(const CSingleton &assign){cout<<"assign"<<endl;}
+        CSingleton(){ cout<<"constructor"<<endl;}
+        CSingleton(const CSingleton &copy) {cout<<"copy constructor"<<endl;}
+        CSingleton& operator=(const CSingleton &assign){cout<<"assign construct"<<endl;}
 
-        CSingleton(){ cout<<"created"<<endl;}
-        static CSingleton myInstance;
+        static CSingleton* myInstance;
 
-        virtual ~CSingleton(){cout<<"destuctor"<<endl;}
     public:
+        virtual ~CSingleton(){cout<<"destructor"<<endl;}
 
-        static CSingleton *getInstance() {
-            return &myInstance;
-        }
+        static CSingleton* getInstance();
 };
 
 #endif
