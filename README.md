@@ -25,10 +25,11 @@ pattern
 > 状态模式（State Pattern）中，类的行为是基于它的状态改变的。
 > 主要应用于状态变更的模式中
 + 与策略模式相比较,状态模式是由Context中的set根据状态来加载类的
-
+##### 命令模式(Command)
+> 命令模式（Command Pattern）: 一种数据驱动的设计模式，它属于行为型模式。请求以命令的形式包裹在对象中，并传给调用对象。
+>     将“请求”封装成对象，以便使用不同的请求、队列或者日志来参数化其他对象。命令模式也支持可撤销的操作。
+##### 解释器模式(Interpreter)
  责任链模式(Chain of Responsibility)
- 解释器模式(Interpreter)
- 命令模式(Command)
  观察者模式(Observer)
  备忘录模式(Memento)
  迭代器模式(Iterator)
