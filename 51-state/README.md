@@ -1,0 +1,1 @@
+与Strategy 策略模式相比较 context中通过状态装载不同的实现

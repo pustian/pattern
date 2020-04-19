@@ -14,11 +14,18 @@ pattern
 ##### 工厂方法模式(Factory Method)
 > 工厂方法模式(Factory Method)：由子类决定要创建的具体类是哪一个。
 ##### 构建模式(Builder)
+> 建造者模式（Builder Pattern）:使用多个简单的对象一步一步构建成一个复杂的对象
 ##### 原型模式(Prototype)
+> 原型模式（Prototype Pattern）:用于创建重复的对象，同时又能保证性能。
 
 ### 行为设计模式：
- 策略模式(Strategy)
- 状态模式(State)
+##### 策略模式(Strategy)
+> 策略模式（Strategy Pattern）: 一个类的行为或其算法可以在运行时更改. Context中execute方法决定了Strategy类的行为
+##### 状态模式(State)
+> 状态模式（State Pattern）中，类的行为是基于它的状态改变的。
+> 主要应用于状态变更的模式中
++ 与策略模式相比较,状态模式是由Context中的set根据状态来加载类的
+
  责任链模式(Chain of Responsibility)
  解释器模式(Interpreter)
  命令模式(Command)
