@@ -2,8 +2,10 @@ import java.util.HashMap;
 import java.util.Stack;
 
 public class Calculator {
+    // 定义表达式
     private Expression expression;
 
+    // 构造参数传参数, 并解析
     public Calculator(String expStr) {
         // 安排运算顺序
         Stack<Expression> stack = new Stack<>();
@@ -17,16 +19,16 @@ public class Calculator {
             switch(charArray[i]) {
                 case '+':
                     left = stack.pop();
-                    right = new VarExpression( String.valueOf(charArray[i++]) );
+                    right = new VarExpression( String.valueOf(charArray[++i]) );
                     stack.push(new AddExpression(left, right) );
                     break;
                 case '-':
                     left = stack.pop();
-                    right = new VarExpression( String.valueOf(charArray[i++]) );
+                    right = new VarExpression( String.valueOf(charArray[++i]) );
                     stack.push(new SubExpression(left, right) );
                     break;
                 default:
-                    stack.push(new VarExpression(String.valueOf(charArray[i++]) ) );
+                    stack.push(new VarExpression(String.valueOf(charArray[i]) ) );
                     break;
             }
         }
