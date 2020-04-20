@@ -4,6 +4,8 @@ public class Customer{
         //开店前准备：烤肉厨师，烤肉菜单，服务员
         //通过Barbecuer类实例化一个boy对象，即烧烤者
         Barbecuer boy = new Barbecuer();
+	// 可以有多个厨师
+
         // 多态的体现：实例化烤羊肉串对
         Command bakeMuttonCommand1 = new BakeMuttonCommand(boy);     
         Command bakeMuttonCommand2 = new BakeMuttonCommand(boy);     

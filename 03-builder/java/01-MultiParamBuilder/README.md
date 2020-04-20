@@ -1,3 +1,4 @@
+org.springframework.security.core.userdetails.User.Builder
 参考spring-security中User.Builder
 Sweggerui 使用
 
