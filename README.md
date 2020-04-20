@@ -29,74 +29,27 @@ pattern
 > 命令模式（Command Pattern）: 一种数据驱动的设计模式，它属于行为型模式。请求以命令的形式包裹在对象中，并传给调用对象。
 >     将“请求”封装成对象，以便使用不同的请求、队列或者日志来参数化其他对象。命令模式也支持可撤销的操作。
 ##### 解释器模式(Interpreter)
- 责任链模式(Chain of Responsibility)
- 观察者模式(Observer)
+> 解释器模式（Interpreter Pattern）提供了评估语言的语法或表达式的方式
+>     编译器、运算表达式计算 java可以用 expression4J 代替
+##### 责任链模式(Chain of Responsibility)
+> 责任链模式（Chain of Responsibility Pattern）为请求创建了一个接收者对象的链
+>     日志按级别处理
+##### 模板方法模式(Template Method)
+> 模板模式（Template Pattern）中，一个抽象类公开定义了执行它的方法的方式/模板
++  与策略模式相比较,使不同的算法可以被相互替换，而不影响客户端的使用。 模板方法定义一个算法流程，将一些特定步骤的具体实现、延迟到子类。
+##### 观察者模式(Observer)
+> 对象间存在一对多关系时，则使用观察者模式（Observer Pattern）。比如，当一个对象被修改时，则会自动通知它的依赖对象
  备忘录模式(Memento)
  迭代器模式(Iterator)
- 模板方法模式(Template Method)
  访问者模式(Visitor)
  中介者模式(Mediator)
 
-
-
 ### 结构型设计模式：
-
  装饰者模式(Decorator)
-
  代理模式(Proxy)
-
  组合模式(Composite)
-
  桥连接模式(Bridge)
-
  适配器模式(Adapter)
-
  蝇量模式(Flyweight)
-
  外观模式(Facade)
 
-
-
- 各种模式的表述：
-
- 装饰者模式(Decorator)：包装一个对象，以提供新的行为。
-
-
-
- 状态模式(State)：封装了基于状态的行为，并使用委托在行为之间切换。
-
-
-
- 迭代器模式(Iterator)：在对象的集合之中游走，而不暴露集合的实现。
-
-
-
- 外观模式(Facade)：简化一群类的接口。
-
-
-
- 策略模式(Strategy)：封装可以互换的行为，并使用委托来决定要使用哪一个。
-
-
-
- 代理模式(Proxy)：包装对象，以控制对此对象的访问。
-
-
-
- 适配器模式(Adapter)：封装对象，并提供不同的接口。
-
-
-
- 观察者模式(Observer)：让对象能够在状态改变时被通知。
-
-
-
- 模板方法模式(Template Method)：有子类决定如何实现一个算法中的步骤。
-
-
-
- 组合模式(Composite)：客户用一致的方法处理对象集合和单个对象。
-
-
-
- 命令模式(Command)：封装请求成为对象。 
