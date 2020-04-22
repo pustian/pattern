@@ -45,11 +45,15 @@ pattern
  中介者模式(Mediator)
 
 ### 结构型设计模式：
- 装饰者模式(Decorator)
- 代理模式(Proxy)
- 组合模式(Composite)
+##### 装饰者模式(Decorator)
+> 装饰器模式（Decorator Pattern）允许向一个现有的对象添加新的功能，同时又不改变其结构。
+##### 代理模式(Proxy)
+> 代理模式（Proxy Pattern）中，一个类代表另一个类的功能。
+##### 组合模式(Composite)
+> 组合模式（Composite Pattern），又叫部分整体模式，是用于把一组相似的对象当作一个单一的对象。组合模式依据树形结构来组合对象，用来表示部分以及整体层次
+##### 适配器模式(Adapter)
+> 适配器模式（Adapter Pattern）是作为两个不兼容的接口之间的桥梁. 例，读卡器是作为内存卡和笔记本之间的适配器
  桥连接模式(Bridge)
- 适配器模式(Adapter)
  蝇量模式(Flyweight)
  外观模式(Facade)
 
