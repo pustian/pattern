@@ -54,6 +54,7 @@ pattern
 ##### 适配器模式(Adapter)
 > 适配器模式（Adapter Pattern）是作为两个不兼容的接口之间的桥梁. 例，读卡器是作为内存卡和笔记本之间的适配器
  桥连接模式(Bridge)
- 蝇量模式(Flyweight)
- 外观模式(Facade)
-
+##### 享元/蝇量模式(Flyweight)
+> 享元模式（Flyweight Pattern） 主要用于减少创建对象的数量，以减少内存占用和提高性能。 
+##### 外观模式(Facade)
+> 外观模式（Facade Pattern）隐藏系统的复杂性，并向客户端提供了一个客户端可以访问系统的接口
