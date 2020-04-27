@@ -44,7 +44,8 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 > 典型的例子就是游戏存档和读档的这个行为。
 ##### 迭代器模式(Iterator)
 > 用于顺序访问集合对象的元素，不需要知道集合对象的底层表示。
- 访问者模式(Visitor)
+##### 访问者模式(Visitor)
+> 访问者模式（Visitor Pattern）中，我们使用了一个访问者类，它改变了元素类的执行算法。
  中介者模式(Mediator)
 
 ### 结构型设计模式：
