@@ -1,5 +1,5 @@
 # pattern
-pattern
+https://www.runoob.com/design-pattern/design-pattern-tutorial.html
 设计模式的分类：
 设计模式可以分为三大类:
 > + 分别是创建型设计模式
@@ -39,8 +39,11 @@ pattern
 +  与策略模式相比较,使不同的算法可以被相互替换，而不影响客户端的使用。 模板方法定义一个算法流程，将一些特定步骤的具体实现、延迟到子类。
 ##### 观察者模式(Observer)
 > 对象间存在一对多关系时，则使用观察者模式（Observer Pattern）。比如，当一个对象被修改时，则会自动通知它的依赖对象
- 备忘录模式(Memento)
- 迭代器模式(Iterator)
+##### 备忘录模式(Memento)
+> 备忘录模式（Memento Pattern）保存一个对象的某个状态，以便在适当的时候恢复对象。 
+> 典型的例子就是游戏存档和读档的这个行为。
+##### 迭代器模式(Iterator)
+> 用于顺序访问集合对象的元素，不需要知道集合对象的底层表示。
  访问者模式(Visitor)
  中介者模式(Mediator)
 
