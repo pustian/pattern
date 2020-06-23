@@ -2,7 +2,9 @@ public class SingleTon03 {
     // 自身实例化为一个属性,并用static修饰
     private static SingleTon03 instance =  null;
     
-    private SingleTon03(){}
+    private SingleTon03(){
+        System.out.println("SingleTon03 Created");
+    }
     // 静态方法返回实例.加关键字 synchronized
     public static synchronized SingleTon03 getInstance() {
         if(null == instance) {

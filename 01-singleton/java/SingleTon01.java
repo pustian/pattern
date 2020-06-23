@@ -1,13 +1,3 @@
-public class SingleTon01 {
-    // 自身实例化对象设置为一个属性
-    private static final SingleTon01 instance =  new SingleTon01();
-    // 构造私有化,
-    private SingleTon01() {}
-    // 静态方法返回实例
-    public static SingleTon01 getInstance() {
-        return instance;
-    }
-}
 /**
  * 立即加载/饿汉模式
  *
@@ -17,3 +7,15 @@ public class SingleTon01 {
  *      有时会比较耗费内存
  *
  */
+public class SingleTon01 {
+    // 自身实例化对象设置为一个属性
+    private static final SingleTon01 instance =  new SingleTon01();
+    // 构造私有化,
+    private SingleTon01() {
+        System.out.println("SingleTon01 Created");
+    }
+    // 静态方法返回实例
+    public static SingleTon01 getInstance() {
+        return instance;
+    }
+}

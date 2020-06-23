@@ -2,7 +2,9 @@ public class SingleTon02 {
     // 自身实例化为一个属性,并用static修饰
     private static SingleTon02 instance;
 
-    private SingleTon02(){}
+    private SingleTon02(){
+        System.out.println("SingleTon02 Created");
+    }
     // 静态方法返回实例
     public static SingleTon02 getInstance() {
         if(instance == null) {

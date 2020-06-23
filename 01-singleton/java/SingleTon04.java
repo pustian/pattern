@@ -2,7 +2,9 @@ public class SingleTon04 {
     // 自身实例化为一个属性,并用static修饰
     private static SingleTon04 instance =  null;
     
-    private SingleTon04(){}
+    private SingleTon04(){
+        System.out.println("SingleTon04 Created");
+    }
     // 静态方法返回实例.加关键字 synchronized
     public static SingleTon04 getInstance() {
         // 第一次检查instance是否被实例化出来，如果没有进入if块

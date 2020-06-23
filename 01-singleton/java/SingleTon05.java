@@ -2,7 +2,9 @@ public class SingleTon05 {
     private static class SingletonHolder {  
         private static final SingleTon05 INSTANCE = new SingleTon05();  
     }  
-    private SingleTon05 (){}  
+    private SingleTon05(){
+        System.out.println("SingleTon05 Created");
+    }
     public static final SingleTon05 getInstance() {  
         return SingletonHolder.INSTANCE;  
     }  
